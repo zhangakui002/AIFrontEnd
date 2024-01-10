@@ -1,8 +1,6 @@
 {
-  "rewrites": [
-    {
-      "source": "/blog",
-      "destination": "https://acme.com/blog"
-    }
-  ]
+    "version": 2,
+    "routes": [
+      {"src": "/(.*)","dest": "http://123.123.123.123:9000/$1"}
+    ]
 }
